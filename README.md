@@ -12,23 +12,16 @@ matplotlib==3.4.3
 seaborn==0.11.2
 yfinance==0.1.63
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- directory for the project:
-
-mkdir macro_trading_toolbox
-cd macro_trading_toolbox
+Make sure you have Python and Node.js installed on your machine.
+Install the required Python packages by running pip install flask flask-cors in the terminal.
+Navigate to the macro_trading_toolbox/src/ui/react_app directory and run npm install to install the required Node.js packages.
+Open two terminal windows.
+In the first window, navigate to macro_trading_toolbox/src/ui/react_app and run the React development server: npm start.
+In the second window, navigate to macro_trading_toolbox/src and run the Flask application: python app.py.
+Visit http://localhost:3000 in your browser to see the application.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-basic project structure:
-
-mkdir src tests docs ui
-touch README.md .gitignore
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Install Required Packages:
-
-pip install -r requirements.txt
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Run the Flask App:
-
-python ui/app.py
+Example:
+from macro_trading_toolbox.src.portfolio_management.export_functionality import some_function
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Project Structure:
 
